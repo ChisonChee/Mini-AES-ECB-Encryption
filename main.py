@@ -116,7 +116,7 @@ def add_round_key(instances: list[str], roundkey: str):
 
 
 text = input("Please input your 4 letter word: ")
-key_0 = '0b1001011110100011'
+key_0 = input("Please input your key in binary stream")
 key_0 = format(int(key_0, 2), '#018b')
 
 rnd_key_01 = RoundKeyGeneration(key_0, 1)
